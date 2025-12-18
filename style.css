@@ -1,0 +1,76 @@
+:root {
+  --bg: #0a0a0c;
+  --text: #f4f4f4;
+  --muted: #9c9c9c;
+  --accent: #4da3ff;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.page {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+}
+
+/* INITIALS AVATAR */
+.avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: #1d1f22;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.avatar span {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+h1 {
+  font-size: 1.9rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.section-title {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.muted {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.links-list {
+  list-style: none;
+  padding: 0;
+}
+
+.links-list li {
+  margin-bottom: 0.45rem;
+}
