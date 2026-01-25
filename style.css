@@ -74,3 +74,20 @@ p {
 .links-list li {
   margin-bottom: 0.45rem;
 }
+hr {
+  border: none;
+  border-top: 1px solid #2a2a2a;
+  margin: 2rem 0;
+}
+
+.custom-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+.custom-list li {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
