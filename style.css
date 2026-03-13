@@ -89,6 +89,21 @@ a:hover {
   font-size: 0.98rem;
 }
 
+.writings summary {
+  color: #3a7bff;
+  cursor: pointer;
+  display: inline;
+}
+
+.writings ul {
+  margin-top: 6px;
+  padding-left: 18px;
+}
+
+.writings li {
+  margin-bottom: 4px;
+}
+
 /* ===== Mobile tweaks ===== */
 @media (max-width: 480px) {
   .page {
